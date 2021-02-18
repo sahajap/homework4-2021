@@ -72,9 +72,8 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
-  border-top: 2px black;
+  border-top: 2px solid black;
   padding: 10px;
-  
 }
 
 /*Req 6b*/
@@ -85,11 +84,13 @@ td{
   text-align: center;
   text-transform: uppercase;
   background: #7e0820;
+  
+
 }
 /*Req 6c*/
 .rowhead{
-  border: 2px black;
-  border-collapse: collapse;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /*Req 6d*/
@@ -112,6 +113,7 @@ table{
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
+
 }
 
 thead tr:first-child th:first-child{
