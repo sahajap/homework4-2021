@@ -136,11 +136,13 @@ tbody tr:nth-child(10) th:nth-child(1){
 
 /*Req 8*/
 footer{
-  width:100%;
-  background:#000000;
-  text-align:center;
-  color: #FFFFFF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#000000;
+  color:#FFFFFF;
+  text-align: center;
   min-height: 75px;
-  position: relative;
 }
 
