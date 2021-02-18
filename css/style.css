@@ -81,12 +81,12 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase;
   background: #7e0820;
 }
 /*Req 6c*/
-
 .rowhead{
   border-top: 2px solid black;
   border-right: 2px solid black;
@@ -102,8 +102,7 @@ tbody tr:nth-child(even) {
 }
 /*Req 6f*/
 tbody tr:hover{
-  background: #7e0820;
-  opacity: 0.25;
+  background: rgb(126, 8, 32, 0.25)
 }
 
 /*Req 7*/
